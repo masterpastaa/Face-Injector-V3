@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="api">
+      <UniqueIdentifier>{a9695745-c439-4acc-81b1-5c36f8b434d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="define">
+      <UniqueIdentifier>{6cd4550f-57b9-4e67-93ea-c50e7e160389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{cba38fdc-d3f0-4d79-912e-2a3ca2db764e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inject">
+      <UniqueIdentifier>{f22c3326-6a1a-41d6-9185-5153a28031c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="target">
+      <UniqueIdentifier>{a2b39107-a9c0-402a-aebd-6c3b05779597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structs">
+      <UniqueIdentifier>{80b28b04-cf6b-47f4-b91a-41824eccd86f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="api\api.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\drvutils.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\shellcode.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="api\utilit.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="define\stdafx.h">
+      <Filter>define</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\injection_features.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="inject\utils.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\defines.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="driver\driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="api\xor.h">
+      <Filter>api</Filter>
+    </ClInclude>
+    <ClInclude Include="add.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="manualmap.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+    <ClInclude Include="target.h">
+      <Filter>target</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="bytes.h">
+      <Filter>structs</Filter>
+    </ClInclude>
+    <ClInclude Include="inject.h">
+      <Filter>inject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver\driver.cpp">
+      <Filter>driver</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="manualmap.cpp">
+      <Filter>inject</Filter>
+    </ClCompile>
+    <ClCompile Include="target.cpp">
+      <Filter>target</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
