@@ -5,6 +5,6 @@
 
 # Others
 
-Credits to KANKOSHEV for Face Injector V2
+Credits to **KANKOSHEV** for Face Injector V2
 <br>
-Credits to busybox10 for Face Injector (V1 / original version)
+Credits to **busybox10** for Face Injector (V1 / original version)
