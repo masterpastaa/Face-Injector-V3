@@ -3,8 +3,9 @@
 #include <Windows.h>
 #include <tlhelp32.h>
 
+//U can Change Any Game EXE HERE Just Target Proccess Name Paste Here
 std::vector<TargetProcess> Target::potential_targets = {
-	{ "Fortnite", "FortniteClient-Win64-Shipping.exe", "nigger.dll", X64, false },
+	{ "Valorant", "ValorantClient-Win64-Shipping.exe", "valo.dll", X64, true },
 };
 
 int Target::is_valid_target(std::string target_name) {
